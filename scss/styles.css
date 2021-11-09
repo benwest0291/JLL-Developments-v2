@@ -1,5 +1,59 @@
+.navbar-lewagon {
+  background: #264653;
+  padding: 18px;
+  width: 100%;
+  border-bottom: solid #fff 2px;
+}
+
+.navbar-toggler {
+  border: solid 2px #fff !important;
+}
+
+.navbar-lewagon .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 100px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  background-color: #264653 !important;
+}
+
+.nav-item .nav-link:hover {
+  color: #2a9d8f !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .footer {
-  background: #2a9d8f;
+  background: -webkit-gradient(linear, left top, right top, from(#264653), to(#8c93a6));
+  background: linear-gradient(90deg, #264653, #8c93a6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,36 +120,38 @@ body {
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 250px 0;
-  height: 400px;
+  padding: 210px 0;
+  height: 950px;
+  border-bottom: sold 2px #fff;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  font-size: 32px;
+  text-shadow: 1px 1px 3px #264653;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 35px;
   color: white;
-  opacity: 0.7;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px #264653;
 }
 
 .btn-flat {
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1edd88;
+  background: #264653;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
+  border: solid 1px #fff;
 }
 
 .btn-flat:hover {
-  background: #1bcb7f;
+  background: #2a9d8f;
   color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
