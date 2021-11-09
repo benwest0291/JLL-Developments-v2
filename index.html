@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scss/styles.css">
+  <link rel="stylesheet" href="scss/normalise.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="./images/favicon_symbol.png" type="image/x-icon">
+  <title>JLL Development</title>
+</head>
+<body>
+
+<!--Nav Bar-->
+<a name="home"></a>
+<div class=" navbar navbar-expand-sm navbar-light navbar-lewagon">
+
+    <a class="navbar-brand" href="#home">
+    <img src="data:image/jpeg;base64,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"/>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">NavBar</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Navbar</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--Navbar End-->
+
+<!--Banner-->
+
+<img src="http://cdn.home-designing.com/wp-content/uploads/2016/12/large-sliding-door-brick-wall-living-room-design.jpg">
+
+<!--End of Banner-->
+
+
+<!--Content-->
+ <div class="wrapper">
+
+    <div class="push"></div>
+ </div>
+
+<!--End of Content-->
+
+<!--Footer-->
+
+<div class="footer">
+      <div class="footer-links">
+        <a href="/"target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="footer-copyright">
+      <p class="footer-text"></p>JLL Developments @2021 All Rights Reserved</p>
+      <p class="footer-text"></p>Created by Ben Ben West Web Design</p>
+    </div>
+
+    <!--Footer-End-->
+    <script src="https://kit.fontawesome.com/c88efbc889.js"></script>
+</body>
+</html>
