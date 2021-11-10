@@ -135,6 +135,8 @@ body {
   -webkit-transform: skewY(5deg);
           transform: skewY(5deg);
   margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .content-2 {
@@ -145,7 +147,7 @@ body {
 .heading {
   color: #fff;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   -webkit-transform: skewY(5deg);
           transform: skewY(5deg);
 }
@@ -178,7 +180,7 @@ body {
 }
 
 .content-2-paragraph {
-  margin-top: 30px;
+  margin: 30px 40px 40px 40px;
 }
 
 @media all and (min-width: 600px) {
@@ -207,6 +209,15 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
   .content-1-paragraph {
     margin-top: 25px;
@@ -218,22 +229,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .content-2-img {
     width: 550px;
     margin-right: 80px;
     border-radius: 10px 10px;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
   }
   .content-2-paragraph {
     margin-top: 25px;
