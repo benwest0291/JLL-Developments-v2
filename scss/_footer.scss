@@ -9,11 +9,14 @@
   width: 100%;
   margin-top: 140px;
   bottom: 0;
+  width: 100vw;
 }
 
 .footer-copyright {
   text-align: center;
   font-size: 18px;
+  background: #264653;
+  width: 100vw;
 }
 
 .footer-links {
@@ -34,8 +37,16 @@
   opacity: 1;
 }
 
-.footer-text {
-  font-size: 10px;
+.footer-bw-link {
+  font-size: 18px;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-bw-link:hover {
+  color: #2a9d8f;
+  opacity: 1;
+  text-decoration: none;
 }
 
 html,

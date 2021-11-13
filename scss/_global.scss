@@ -1,5 +1,6 @@
 body {
   background-color: #d6d6d4;
+  width: 100vw;
 }
 
 .content-1 {
@@ -10,6 +11,7 @@ body {
   padding-top: 30px;
   margin-bottom: 20px;
   padding-bottom: 70px;
+  width: 100vw;
 }
 
 .content-1-paragraph {
@@ -23,6 +25,7 @@ body {
 .content-2 {
   text-align: center;
   margin-bottom: 50px;
+  width: 100vw;
 }
 
 .heading {
@@ -48,6 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .content-2-paragraph {
@@ -63,7 +67,7 @@ body {
     padding: 50px;
   }
   .content-1-img {
-    width: 600px;
+    width: 500px;
     margin-right: 80px;
     border-radius: 10px 10px;
   }

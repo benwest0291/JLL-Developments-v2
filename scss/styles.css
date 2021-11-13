@@ -3,6 +3,7 @@
   padding: 18px;
   width: 100%;
   border-bottom: solid #fff 2px;
+  width: 100vw;
 }
 
 .navbar-toggler {
@@ -69,11 +70,14 @@
   width: 100%;
   margin-top: 140px;
   bottom: 0;
+  width: 100vw;
 }
 
 .footer-copyright {
   text-align: center;
   font-size: 18px;
+  background: #264653;
+  width: 100vw;
 }
 
 .footer-links {
@@ -98,8 +102,19 @@
   opacity: 1;
 }
 
-.footer-text {
-  font-size: 10px;
+.footer-bw-link {
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bw-link:hover {
+  color: #2a9d8f;
+  opacity: 1;
+  text-decoration: none;
 }
 
 html,
@@ -117,6 +132,7 @@ body {
 
 body {
   background-color: #d6d6d4;
+  width: 100vw;
 }
 
 .content-1 {
@@ -128,6 +144,7 @@ body {
   padding-top: 30px;
   margin-bottom: 20px;
   padding-bottom: 70px;
+  width: 100vw;
 }
 
 .content-1-paragraph {
@@ -142,6 +159,7 @@ body {
 .content-2 {
   text-align: center;
   margin-bottom: 50px;
+  width: 100vw;
 }
 
 .heading {
@@ -177,6 +195,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100vw;
 }
 
 .content-2-paragraph {
@@ -201,7 +220,7 @@ body {
     padding: 50px;
   }
   .content-1-img {
-    width: 600px;
+    width: 500px;
     margin-right: 80px;
     border-radius: 10px 10px;
   }
@@ -258,6 +277,7 @@ body {
   padding: 210px 0;
   height: 950px;
   border-bottom: sold 2px #fff;
+  width: 100vw;
 }
 
 .banner h1 {
